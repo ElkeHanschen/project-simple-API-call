@@ -1,4 +1,4 @@
-# Project simple API call
+# Project Clicks for Dogs, simple API call
 
 ### What is this about?
 
@@ -10,9 +10,15 @@
 - tutorial video [AJAX](https://frontendmasters.com/courses/web-development-v2/ajax/)
 - tutorial course notes [AJAX](https://btholt.github.io/intro-to-web-dev-v2/ajax/)
 
+### How to run this?
+
+- clone this repo
+- `cd` into project
+- open `index.html` in your browser of choice (in my case, built in/for Chrome)
+
 ### Code within tutorial
 
-- I've adapted my code already, as the tutorial code was missing the `<button>` anyhow
+- Heads up: I've adapted my code already, as the tutorial code was missing the `<button>`
 
 ```
 <!DOCTYPE html>
@@ -59,9 +65,3 @@ document.querySelector(".add-doggo").addEventListener("click", addNewDoggo);
 ### Possible next steps
 
 - use `<select>` to request off of a [list of breeds offered](https://dog.ceo/dog-api/documentation/), when a user selects a dog breed, show a random image of a dog of the [selected breed](https://dog.ceo/dog-api/documentation/breed)
-
-### How to run this?
-
-- clone this repo
-- `cd` into project
-- open `index.html` in your browser of choice (in my case, built in/for Chrome)
